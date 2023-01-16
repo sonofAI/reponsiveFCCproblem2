@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    background-color: rgb(49, 44, 44);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+#img-div {
+    background-color: black;
+    padding: 2px;
+}
+  
+#image {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+h1, p, #img-caption, h3 {
+    text-align: center;
+}
+
+li {
+    margin: 3%;
+}
+
+@media (min-width: 576px) {
+    #info {
+        width: 550px;
+        margin: auto;
+    }
+}
